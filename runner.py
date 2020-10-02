@@ -34,8 +34,8 @@ def main():
   vector_add_gpu_time = timer() - start
  
   # Report times
-  print("CPU function took %f seconds." % vector_add_cpu_time)
-  print("GPU function took %f seconds." % vector_add_gpu_time)
+  print("CPU function took {} seconds.".format(vector_add_cpu_time))
+  print("GPU function took {} seconds.".format(vector_add_gpu_time))
  
   return 0
  
