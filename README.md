@@ -2,6 +2,13 @@
 
 Just sharing some scripts between systems
 
+## Startup
+```
+source venv/bin/activate
+
+
+```
+
 ## First Install
 
 1. Download from git
@@ -26,11 +33,4 @@ python3 -m venv venv
 source venv/bin/activate
 
 pip install -r requirements.txt 
-```
-
-## Startup
-```
-source venv/bin/activate
-
-jupyter lab
 ```
